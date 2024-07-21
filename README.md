@@ -27,10 +27,7 @@ Welcome to my collection of LeetCode problem solutions! This repository is for s
 |---------|----------|
 | Move Zeroes | [0283-move-zeroes](https://github.com/pushpenderrajput/LeetCode-Solutions/tree/master/0283-move-zeroes) |
 
-### String
-| Problem | Solution |
-|---------|----------|
-|String to integer| [0008-string-to-integer-atoi](https://github.com/pushpenderrajput/LeetCode-Solutions/tree/master/0008-string-to-integer-atoi) |
+#
 ---
 
 
@@ -127,4 +124,17 @@ For any questions, feel free to reach out:
 |  |
 | ------- |
 | [0008-string-to-integer-atoi](https://github.com/pushpenderrajput/LeetCode-Solutions/tree/master/0008-string-to-integer-atoi) |
+|String to integer| [0008-string-to-integer-atoi](https://github.com/pushpenderrajput/LeetCode-Solutions/tree/master/0008-string-to-integer-atoi) |
+## Array
+|  |
+| ------- |
+| [0830-largest-triangle-area](https://github.com/pushpenderrajput/LeetCode-Solutions/tree/master/0830-largest-triangle-area) |
+## Math
+|  |
+| ------- |
+| [0830-largest-triangle-area](https://github.com/pushpenderrajput/LeetCode-Solutions/tree/master/0830-largest-triangle-area) |
+## Geometry
+|  |
+| ------- |
+| [0830-largest-triangle-area](https://github.com/pushpenderrajput/LeetCode-Solutions/tree/master/0830-largest-triangle-area) |
 <!---LeetCode Topics End-->

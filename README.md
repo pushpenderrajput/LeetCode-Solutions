@@ -7,28 +7,13 @@ Welcome to my collection of LeetCode problem solutions! This repository is for s
 </p>
 
 ---
-## 📈 LeetCode Profile
+## 👨🏻‍💻 LeetCode Profile
 
 <p align="center">
   <a href="https://leetcode.com/pushpenderrajput/">
     <img width="80%" src="https://leetcard.jacoblin.cool/pushpenderrajput?theme=light&font=Revalia&ext=heatmap" alt="LeetCode Profile Card" />
   </a>
 </p>
-
-## 📂 Problem Categories
-
-### 📊 Array
-| Problem | Solution |
-|---------|----------|
-| Move Zeroes | [0283-move-zeroes](https://github.com/pushpenderrajput/LeetCode-Solutions/tree/master/0283-move-zeroes) |
-
-### 🔄 Two Pointers
-| Problem | Solution |
-|---------|----------|
-| Move Zeroes | [0283-move-zeroes](https://github.com/pushpenderrajput/LeetCode-Solutions/tree/master/0283-move-zeroes) |
-
-#
----
 
 
 
@@ -119,21 +104,21 @@ For any questions, feel free to reach out:
 
 
 <!---LeetCode Topics Start-->
-# LeetCode Topics
-## String
+## 📂 Problem Categories
+## 🧵 String
 |  |
 | ------- |
 | [0008-string-to-integer-atoi](https://github.com/pushpenderrajput/LeetCode-Solutions/tree/master/0008-string-to-integer-atoi) |
 |String to integer| [0008-string-to-integer-atoi](https://github.com/pushpenderrajput/LeetCode-Solutions/tree/master/0008-string-to-integer-atoi) |
-## Array
+### 📊 Array
 |  |
 | ------- |
 | [0830-largest-triangle-area](https://github.com/pushpenderrajput/LeetCode-Solutions/tree/master/0830-largest-triangle-area) |
-## Math
+## 🔢 Math
 |  |
 | ------- |
 | [0830-largest-triangle-area](https://github.com/pushpenderrajput/LeetCode-Solutions/tree/master/0830-largest-triangle-area) |
-## Geometry
+## 📐 Geometry
 |  |
 | ------- |
 | [0830-largest-triangle-area](https://github.com/pushpenderrajput/LeetCode-Solutions/tree/master/0830-largest-triangle-area) |

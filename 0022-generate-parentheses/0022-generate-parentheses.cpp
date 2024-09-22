@@ -1,22 +1,22 @@
 class Solution {
 public:
-    void helper(string curr, int open, int close, int n, vector<string>& ans){
+    vector<string> helper(string  curr, int open, int close, int n, vector<string> & ans){
         if(close == n && open == n){
             ans.push_back(curr);
-            return;
+            return ans;
         }
-        if(open<n){
-            helper(curr+"(", open+1, close, n , ans);
+        if(open < n){
+            helper(curr+"(", open+1, close, n, ans);
         }
-        if(open > close){
+        if(close < open){
             helper(curr+")", open, close+1, n, ans);
-
         }
+        return ans;
     }
     vector<string> generateParenthesis(int n) {
         vector<string> ans;
-        helper("",0,0,n,ans);
-        return ans;
+        return helper("",0,0,n,ans);
+       
         
     }
 };

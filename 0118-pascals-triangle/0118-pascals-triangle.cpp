@@ -1,25 +1,25 @@
 class Solution {
 public:
-    vector<int>generateRow(int rowNum){
-        long long ans =1;
-        vector<int> row;
-        row.push_back(1);
-        for(int col = 1; col<rowNum; col++){
-            ans = ans*(rowNum-col);
-            ans = ans/col;
-            row.push_back(ans);
-
+    vector<int> pascal(int num){
+        vector<int> ansRow;
+        long long ans = 1;
+        ansRow.push_back(1);
+        for(int i =1; i<num; i++){
+            ans = ans * (num-i);
+            ans = ans/i;
+            ansRow.push_back(ans);
+           
         }
-        return row;
+        return ansRow;
     }
     vector<vector<int>> generate(int numRows) {
-        vector<vector<int>> pascal;
-        for(int i =1;i<=numRows;i++){
-            pascal.push_back(generateRow(i));
-        }
-        return pascal;
+        vector<vector<int>> ansArr;
+        for(int i = 1; i<=numRows; i++){
+            
+            ansArr.push_back(pascal(i));
 
-        
+        }
+        return ansArr;
         
     }
 };

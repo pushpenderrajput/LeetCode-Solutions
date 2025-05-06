@@ -1,19 +1,15 @@
 class Solution {
 public:
     int majorityElement(vector<int>& nums) {
-        map<int,int> mpp;
-        int n = nums.size();
-        for(int i =0 ;i<n;i++){
-            mpp[nums[i]]++;
-        }
-        for (auto i : mpp){
-            if(i.second > n/2){
-                return i.first;
+        // Moore Voting Algorithm
+        int candidate = 0;
+        int votes = 0;
+        for(auto num:nums){
+            if(votes == 0){
+                candidate = num;
             }
+            votes += (candidate == num) ? 1 : -1;
         }
-        return -1;
-      
-
-        
+        return candidate;
     }
 };
